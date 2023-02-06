@@ -14,7 +14,11 @@ Provide current suggestions or action plans.
 #### Summary of Project tasking
 
 ##### Meetings/Training
-List the meeting or training that you attended and the meeting minutes that you took.
+Team Meeting:
+
+Configuration Management/Version Control: 30 minutes
+
+SW Architecture: 18 minutes
 
 ##### Training notes
 ##### Stories assigned
