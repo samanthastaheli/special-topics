@@ -1,2 +1,2 @@
-# special-topics-w23
-Special Topics Winter 2023
+# Special Topics Winter 2023
+**CSE 490**
