@@ -1,13 +1,14 @@
 # Week 11-12
 
-## Team 3 Code Requirements
+## Notes
+### Team 3 Code Requirements
 
-### Component Requirements
-#### Set Icon in super
+#### Component Requirements
+##### Set Icon in super
 ```JavaScript
 icon_path="../assets/component_icons/Fuse_Holder.svg"
 ```
-#### set the components rules in constructor
+##### set the components rules in constructor
 Example:
 ```JavaScript
 this.blow_type = "Fast-acting";
@@ -17,7 +18,7 @@ this.current_rating = {
       };
 ```
 
-### Methods required for each component 
+#### Methods required for each component 
 
 * set_data (might be different name)
 * update_self
@@ -28,39 +29,39 @@ this.current_rating = {
 * get_data_raw
   * returns all data even if not used in the class
   * all data from the parent class (Component)
-* add methods that veryify UL rules
+* add methods that verify UL rules
   * These are extra methods unique to every component. Name them whatever makes sense, they will not be pre-existing methods in Component.js like the get_data_raw() method.
   * call these methods in the update_self() 
  
-### Testing
-Every component and their rules need to be tested. This is done in the script_test.html file. 
+#### Testing
+Every component and its rules need to be tested. This is done in the script_test.html file. 
 
 Take screenshots of test results and add them to the Google doc.
 
-### Common Errors
-#### Need new way to get display data
+#### Common ErrorsNeed a new way to get display data
+
 `JSON.stringify(this)` doesn't work. Gets circular reference error.
 
-#### Import class wrong
-Not including ".js". Will show as 403 error in console in browser.
+##### Import class wrong
+Not including ".js". Will show a 403 error in console in browser.
 
-##### Correct
+###### Correct
 ```JavaScript
 import { Fuse } from "./Fuse.js";
 ```
 
-##### Wrong
+###### Wrong
 ```JavaScript
 import { Fuse } from "./Fuse";
 ```
 
-### CADDIEngine
+#### CADDIEngine
 
-The CADDIEngine is the user interface. Each componnet needs to be added to it. 
+The CADDIEngine is the user interface. Each component needs to be added to it. 
 
-#### Import component into CADDIEngine class
+##### Import component into CADDIEngine class
 
-#### Add to dropdown list
+##### Add to dropdown list
 Add to supported_components object near line 77 in CADDIEngine.js
 
 Example:
